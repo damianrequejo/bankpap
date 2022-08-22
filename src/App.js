@@ -8,11 +8,14 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 
 function App() {
+
+  const saludo = "Bienvenido a BankApp"
+  
   return (
     <>
       <Header />
       <Main test="BankApp" />
-      <ItemListContainer />
+      <ItemListContainer saludo={saludo}/>
       <Footer />
     </>
   );
