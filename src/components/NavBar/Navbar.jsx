@@ -1,21 +1,33 @@
 import React from 'react'
 import './navbar.css';
+import CartWidget from './CartWindget/CartWidget';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-    <ul>
-      <li>
-        <a href="">Individuos</a>
-      </li>
-      <li>
-        <a href="">Empresas</a>
-      </li>
-      <li>
-        <a href="">Contacto</a>
-      </li>
-    </ul>
-  </nav>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BankApp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Individuos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Empresas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+          <CartWidget />
+        </div>
+      </div>
+    </nav>    
+    
 
   )
 }
