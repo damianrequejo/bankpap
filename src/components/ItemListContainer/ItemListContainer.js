@@ -1,9 +1,12 @@
 import React from 'react'
 import './itemlistcontainer.css';
 
-const ItemListContainer = ({saludo}) => {
+const ItemListContainer = () => {
   return (
-    <div>{saludo}</div>
+
+
+    
+    <div>Este es el Container de Items</div>
   )
 }
 

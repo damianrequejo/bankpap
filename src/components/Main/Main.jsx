@@ -7,7 +7,7 @@ const Main = (props) => {
   return (
     <main>
         <section>
-            <h2>Bienvenido a {props.test}</h2>
+            <h2>Bienvenido al Main de {props.test}</h2>
         </section>
     </main>
   )

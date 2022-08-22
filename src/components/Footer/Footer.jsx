@@ -3,7 +3,7 @@ import './footer.css';
 const Footer = () => {
     return (
       <footer>
-        <h5>BankApp</h5>
+        <h5>BankApp Footer</h5>
       </footer>
     )
 }
