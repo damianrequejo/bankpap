@@ -2,8 +2,6 @@ import React from 'react'
 import './main.css';
 
 const Main = (props) => {
-  console.log(props)
-  console.log(props.test)
   return (
     <main>
         <section>
