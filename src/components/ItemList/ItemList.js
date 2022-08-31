@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Item from '../Item/Item';
 
 const ItemList = ({items}) => {
@@ -7,7 +7,6 @@ const ItemList = ({items}) => {
 
     {items.map((item) => {
         return (
-            //la key luego pasa al componente Item --> <Item props={props} key={key}/>
             <div>
                 <Item item={item}/>
             </div>

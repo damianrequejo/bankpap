@@ -31,4 +31,4 @@ export const products = [
         category: 'tarjetas de débito',
         img: '../img/tc-visa.png',
     },
-]
+];
